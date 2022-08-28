@@ -9,8 +9,6 @@ def test_SignUp():
 
     sign_up_page = SignUpPage(driver)
 
-    sign_up_page.enter_first_name()
-    sign_up_page.enter_last_name()
-    sign_up_page.enter_email()
-    sign_up_page.enter_phone()
+    sign_up_page.enter_personal_information()
+    sign_up_page.enter_billing_address()
     time.sleep(5)
